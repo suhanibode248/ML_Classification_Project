@@ -1,8 +1,8 @@
-# Customer Churn Prediction using Machine Learning
+# ML Classification project
 
 ## Project Title
 
-Customer Churn Prediction using Machine Learning
+ML Classification project
 
 ## Author(s)
 
