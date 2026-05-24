@@ -1,122 +1,121 @@
 # Customer Churn Prediction using Machine Learning
 
-## Project Overview
+## Project Title
 
-This project is a supervised machine learning classification project that predicts customer churn using customer data.
+Customer Churn Prediction using Machine Learning
 
-The main objective is to identify whether a customer is likely to leave a service based on different customer features.
+## Author(s)
 
----
+Suhani Bode
 
-# Features
+## Affiliation
 
-* Data preprocessing
-* Handling missing values
-* Feature scaling
-* Encoding categorical variables
-* Train-test split
-* Cross-validation
-* Model comparison
-* Performance evaluation
-* Data visualization
+Rashtrasant Tukadoji Maharaj Nagpur University
+
+## Date
+
+May 2026
 
 ---
 
-# Algorithms Used
+# Abstract
 
-1. Logistic Regression
-2. Random Forest Classifier
+This project presents a supervised machine learning classification model for predicting customer churn. Customer churn prediction is an important problem for businesses because retaining customers is more cost-effective than acquiring new ones. The project uses the Telco Customer Churn dataset containing customer details such as tenure, contract type, monthly charges, payment methods, and internet services.
 
----
+The dataset was preprocessed by handling missing values, converting categorical variables into numerical form, and applying feature scaling techniques. Two machine learning algorithms, Logistic Regression and Random Forest Classifier, were implemented and compared.
 
-# Evaluation Metrics
+The dataset was divided into training and testing sets using train-test split, and cross-validation was performed for reliable evaluation. Performance metrics including Accuracy, Precision, Recall, F1 Score, and ROC-AUC were used to measure model effectiveness.
 
-The following metrics were used to evaluate model performance:
-
-* Accuracy
-* Precision
-* Recall
-* F1 Score
-* ROC-AUC Score
+The results showed that Logistic Regression achieved slightly better performance compared to Random Forest. This project helped in understanding the complete machine learning workflow including preprocessing, model training, evaluation, and comparison of classification algorithms.
 
 ---
 
-# Technologies Used
+# Introduction
+
+Customer churn refers to customers discontinuing the use of a company's services. Predicting customer churn is important for organizations because customer retention directly affects business revenue and growth.
+
+With the increase in digital services and competition among companies, machine learning techniques have become highly useful for analyzing customer behavior and predicting churn. Accurate churn prediction helps companies take preventive actions and improve customer satisfaction.
+
+The main objective of this project is to build and evaluate supervised machine learning classification models capable of predicting whether a customer will churn based on available customer information.
+
+---
+
+# Literature Review
+
+Many organizations use machine learning techniques for churn prediction. Traditional statistical approaches such as Logistic Regression are commonly used because of their simplicity and interpretability. Ensemble methods like Random Forest have also gained popularity due to their ability to handle complex relationships in data.
+
+Previous studies have shown that feature engineering, preprocessing, and model selection play important roles in improving prediction accuracy. Researchers have also explored advanced algorithms such as XGBoost, Support Vector Machines, and Neural Networks for churn analysis.
+
+This project focuses on implementing and comparing Logistic Regression and Random Forest models for customer churn prediction using structured customer data.
+
+---
+
+# Methodology
+
+The project follows a supervised machine learning workflow for customer churn prediction. The dataset was first cleaned and preprocessed by removing unnecessary columns, handling missing values, scaling numerical features, and encoding categorical variables. The processed data was divided into training and testing sets using train-test split. Logistic Regression and Random Forest classification algorithms were trained on the training dataset. Predictions were made on the testing dataset, and the models were evaluated using Accuracy, Precision, Recall, F1 Score, and ROC-AUC metrics. Cross-validation was also performed to improve the reliability and consistency of the evaluation process.
+
+---
+
+# Implementation
+
+## Programming Languages
 
 * Python
+
+## Frameworks/Libraries
+
 * Pandas
 * NumPy
 * Scikit-learn
 * Matplotlib
 * Seaborn
+
+## Tools Used
+
 * Google Colab
+* GitHub
 
 ---
 
-# Dataset
+# Results and Discussion
 
-Dataset used:
-Telco Customer Churn Dataset
+Two machine learning algorithms were implemented and compared:
 
-The dataset contains customer information such as:
+1. Logistic Regression
+2. Random Forest Classifier
 
-* Gender
-* Internet service
-* Contract type
-* Monthly charges
-* Total charges
-* Payment method
-* Churn status
+The models were evaluated using multiple performance metrics.
 
----
+| Model               | Accuracy | Precision | Recall | F1 Score |
+| ------------------- | -------- | --------- | ------ | -------- |
+| Logistic Regression | 0.81     | 0.69      | 0.57   | 0.62     |
+| Random Forest       | 0.80     | 0.67      | 0.54   | 0.60     |
 
-# Project Workflow
-
-1. Data Collection
-2. Data Preprocessing
-3. Feature Engineering
-4. Train-Test Split
-5. Model Training
-6. Model Evaluation
-7. Visualization
-8. Model Comparison
+The Logistic Regression model achieved slightly better performance compared to Random Forest. Visualizations such as confusion matrix and ROC curve were also generated to analyze model performance.
 
 ---
 
-# Visualizations
+# Limitation
 
-The project includes:
-
-* Confusion Matrix
-* ROC Curve
-* Comparison Table
+The project has certain limitations. The dataset used may not fully represent real-world customer behavior. The performance of the models depends on data quality and available features. Only two classification algorithms were implemented, and advanced techniques such as hyperparameter tuning and deep learning were not explored. The dataset may also contain class imbalance, which can affect prediction accuracy.
 
 ---
 
-# Results
+# Future Scope
 
-Both models performed well on the dataset.
+Future improvements for this project may include:
 
-Logistic Regression achieved slightly better overall performance compared to Random Forest based on evaluation metrics.
-
----
-
-# Future Improvements
-
-* Hyperparameter tuning
-* Feature selection
-* SMOTE for imbalance handling
-* Advanced models like XGBoost
-* Model explainability using SHAP
-
----
-
-# Author
-
-Suhani Bode
+* Implementing advanced algorithms such as XGBoost and Neural Networks
+* Applying hyperparameter tuning techniques
+* Using feature selection methods
+* Handling class imbalance using SMOTE
+* Deploying the model as a web application
+* Using real-time customer data for prediction
 
 ---
 
 # Conclusion
 
-This project helped in understanding the complete machine learning workflow including preprocessing, training, evaluation, and comparison of classification algorithms.
+This project successfully implemented supervised machine learning techniques for customer churn prediction. Data preprocessing, train-test split, cross-validation, and model evaluation were performed effectively. Logistic Regression and Random Forest models were compared using multiple evaluation metrics.
+
+The results demonstrated that Logistic Regression achieved slightly better performance on the given dataset. The project provided practical understanding of machine learning workflows and classification model evaluation techniques.
